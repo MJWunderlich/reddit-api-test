@@ -1,0 +1,75 @@
+.post {
+    margin-top: 40px;
+}
+
+.thumbnail {
+    padding: 0;
+    margin: 0;
+    height: 80px;
+
+    border: none !important;
+}
+
+.thumbnail .no-thumbnail {
+    height: 80px;
+
+    text-align: center;
+
+    /* Cheap trick to center text VERTICALLY */
+    box-sizing: border-box;
+    padding: 30px 0;
+}
+
+.thumbnail .thumbnail {
+    background-attachment: scroll;
+    background-size: cover;
+    background-position: center center;
+    height: 80px;
+
+    padding: 0;
+    margin: 0;
+}
+
+.subreddit {
+    text-align: center;
+}
+
+.subreddit.inner {
+    padding-left: -15px !important;
+    text-align: left;
+}
+
+.information .title {
+    font-size: 18pt;
+}
+
+.information .domain {
+    color: forestgreen;
+}
+
+.meta em {
+    font-style: italic;
+}
+
+.meta strong {
+    font-style: normal;
+}
+
+.upvotes {
+    text-align: center;
+}
+
+.paginage {
+    margin-top: 40px;
+}
+
+.paginate.prev, .paginate.current-page {
+    display: none;
+}
+
+@media (min-width: 400px) and (max-width: 900px) {
+    .thumbnail .thumbnail {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
